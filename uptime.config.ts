@@ -3,8 +3,8 @@ const pageConfig = {
   title: "Gitlayzer's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://github.com/gitlayzer', label: 'GitHub' },
-    { link: 'https://blog.devops-engineer.com.cn', label: 'Blog', highlight: true},
+    { link: 'https://github.com/gitlayzer', label: 'GitHub', highlight: true },
+    { link: 'https://blog.devops-engineer.com.cn', label: 'Blog', highlight: true },
   ],
 }
 
