@@ -21,16 +21,15 @@ export default function Header() {
     <header className={classes.header}>
       <Container size="md" className={classes.inner}>
         <div>
-            <Text
-              size="xl"
-              span
-              fw={700}
-              variant="gradient"
-              gradient={{ from: 'blue', to: 'cyan', deg: 90 }}
-            >
-              Monitor
-            </Text>
-          </a>
+          <Text
+            size="xl"
+            span
+            fw={700}
+            variant="gradient"
+            gradient={{ from: 'blue', to: 'cyan', deg: 90 }}
+          >
+            Monitor
+          </Text>
         </div>
 
         <Group gap={5} visibleFrom="sm">
