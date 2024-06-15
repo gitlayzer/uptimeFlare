@@ -43,7 +43,7 @@ const workerConfig = {
     },
     {
       id: 'registry',
-      name: 'Image Acceleration',
+      name: 'Gitlayzer`s Image Acceleration',
       method: 'GET',
       target: 'https://registry.devops-engineer.com.cn',
       tooltip: 'Image Acceleration',
