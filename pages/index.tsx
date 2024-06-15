@@ -81,7 +81,7 @@ export default function Home({
           </a>
           , made with ❤ by{' '}
           <a href="https://github.com/lyc8503" target="_blank">
-            lyc8503
+            Gitlayzer
           </a>
           .
         </Text>
