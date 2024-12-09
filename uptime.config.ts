@@ -16,7 +16,7 @@ const workerConfig = {
     // Example HTTP Monitor
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'blog',
+      id: 'Blog',
       // `name` is used at status page and callback message
       name: 'Gitlayze`s Blog',
       // `method` should be a valid HTTP Method
@@ -31,6 +31,15 @@ const workerConfig = {
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
       timeout: 10000,
+    },
+    {
+      id: 'Chat',
+      name: 'Gitlayze`s Chat AI',
+      method: 'GET',
+      target: 'https://ai.devops-engineer.com.cn',
+      tooltip: 'Gitlayze`s Chat AI',
+      statusPageLink: 'https://ai.devops-engineer.com.cn',
+      timeout: 5000,
     },
     {
       id: 'WWW',
